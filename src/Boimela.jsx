@@ -4,7 +4,7 @@ import BookLists from "./Booklists";
 function Boimela() {
   return (
     <div>
-      Boimala
+      Dhaka Boimala
       <Header />
       <Search />
       <BookLists />
