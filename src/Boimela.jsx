@@ -1,6 +1,6 @@
 import Header from "./Header";
 import Search from "./Search";
-import BookLists from "./Booklists";
+import BookLists from "./BookLists";
 function Boimela() {
   return (
     <div>
