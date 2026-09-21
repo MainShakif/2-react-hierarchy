@@ -1,10 +1,10 @@
 import Header from "./Header";
 import Search from "./Search";
-import BookLists from "./BookLists";
+import BookLists from "./BookRowsLists";
 function Boimela() {
   return (
     <div>
-      Dhaka Boimala
+      <h2>Dhaka Boimala</h2>
       <Header />
       <Search />
       <BookLists />

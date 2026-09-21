@@ -1,3 +1,3 @@
 export default function BookInfo() {
-  return <>Book info</>;
+  return <h5>Book info</h5>;
 }
