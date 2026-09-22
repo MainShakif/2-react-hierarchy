@@ -1,3 +1,5 @@
+import { Star } from "lucide-react";
+
 export default function BookMarkLogo() {
-  return <h5>Bookmark Logo</h5>;
+  return <Star />;
 }
