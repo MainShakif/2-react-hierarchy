@@ -1,5 +1,7 @@
 import { Star } from "lucide-react";
 
-export default function BookMarkLogo() {
+function FeatureBook() {
   return <Star />;
 }
+
+export default FeatureBook;

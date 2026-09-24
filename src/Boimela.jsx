@@ -1,15 +1,13 @@
 import Header from "./Header";
-import Search from "./Search";
-import BookLists from "./BookRowsLists";
-function Boimela() {
+import SearchBar from "./SearchBar";
+import BookList from "./BookList";
+
+export default function Boimela() {
   return (
-    <div>
-      <h2>Dhaka Boimala</h2>
+    <div className="container mx-auto p-4">
       <Header />
-      <Search />
-      <BookLists />
+      <SearchBar />
+      <BookList />
     </div>
   );
 }
-
-export default Boimela;

@@ -1,3 +1,7 @@
 export default function Header() {
-  return <h3>Header</h3>;
+  return (
+    <header>
+      <h1 className="text-2xl font-bold mb-4">Boimela</h1>
+    </header>
+  );
 }
