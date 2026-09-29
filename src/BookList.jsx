@@ -1,34 +1,10 @@
+import PropTypes from "prop-types";
+
 import BookRow from "./BookRow";
 
-const books = [
-  {
-    id: 1,
-    title: "To Kill a Mockingbird",
-    author: "Harper Lee",
-    featured: false,
-  },
-  { id: 2, title: "1984", author: "George Orwell", featured: false },
-  {
-    id: 3,
-    title: "The Great Gatsby",
-    author: "F. Scott Fitzgerald",
-    featured: false,
-  },
-  {
-    id: 4,
-    title: "Pride and Prejudice",
-    author: "Jane Austen",
-    featured: false,
-  },
-  {
-    id: 5,
-    title: "The Catcher in the Rye",
-    author: "J.D. Salinger",
-    featured: false,
-  },
-];
-
-function BookList() {
+function BookList({ searchTerm, books }) {
+  console.log(searchTerm);
+  console.log(books);
   return (
     <ul className="space-y-3">
       {books.map((book) => (
@@ -39,5 +15,10 @@ function BookList() {
     </ul>
   );
 }
+
+BookList.PropTypes = {
+  searchTerm: PropTypes.string.isRequired,
+  books: PropTypes.array.isRequired,
+};
 
 export default BookList;
